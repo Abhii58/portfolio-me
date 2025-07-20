@@ -4,32 +4,19 @@ import RevealAnimation from './RevealAnimation';
 const Projects = () => {
   const projects = [
     {
-      title: "Instagram Auto-Reply Bot",
-      description: "Automated comment response system using Instagram API and MongoDB",
-      image: "",
-      tags: ["Python", "FastAPI", "MongoDB", "Instagram API", "Automation"],
+      title: "Zepto Inventory Analysis | SQL + Tableau",
+      description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
+      image: "./images/zepto.png",
+      tags: ["Python", "SQL", "jupyter", "Tableau"],
       demoLink: "#",
       repoLink: "#",
       details: [
-        "Built automated bot handling Instagram comments with keyword-based responses",
-        "Integrated FastAPI for secure authentication and MongoDB for data storage",
-        "Implemented duplicate detection system to prevent redundant replies",
-        "Developed scalable architecture supporting multiple accounts simultaneously"
+        "Designed and analyzed a fictional quick-commerce inventory system using MySQL, performing data cleaning, product segmentation, and business-driven queries.",
+        "Built an interactive Tableau dashboard to visualize inventory weight by category, revenue potential, price-per-gram efficiency, and restocking insights. ",
+        "Implemented advanced SQL queries for product segmentation, identifying high-value products and discount patterns.",
       ]
     },
-    {
-      title: "Sales Dashboard – Tableau",
-      description: "Interactive dashboard for revenue and sales trend analysis.",
-      image: "",
-      tags: ["Tableau", "Excel", "SQL", "Data Visualization"],
-      demoLink: "#",
-      details: [
-        "Created an interactive dashboard for revenue and sales trend analysis.",
-        "Integrated multi-source data (Excel, SQL) and implemented KPI tracking.",
-        "Designed intuitive filters and drill-down capabilities for deeper analysis.",
-        "Implemented automated data refresh schedules for real-time reporting."
-      ]
-    },
+    
     {
       title: "Ferns and Petals Sales Analysis",
       description: "Data cleaning and analysis of floral retailer sales data with Excel dashboards.",
@@ -55,6 +42,19 @@ const Projects = () => {
         "Integrated real-time data retrieval via APIs and visualized predictions.",
         "Implemented technical indicators (RSI, MACD, Bollinger Bands) as features.",
         "Achieved 85% directional accuracy in short-term price movement prediction."
+      ]
+    },
+    {
+      title: "Sales Dashboard – Tableau",
+      description: "Interactive dashboard for revenue and sales trend analysis.",
+      image: "",
+      tags: ["Tableau", "Excel", "SQL", "Data Visualization"],
+      demoLink: "#",
+      details: [
+        "Created an interactive dashboard for revenue and sales trend analysis.",
+        "Integrated multi-source data (Excel, SQL) and implemented KPI tracking.",
+        "Designed intuitive filters and drill-down capabilities for deeper analysis.",
+        "Implemented automated data refresh schedules for real-time reporting."
       ]
     },
     {
