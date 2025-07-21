@@ -57,7 +57,8 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply text-foreground font-sans;
+    background-color: #ffe7ffd8;
     overscroll-behavior: none;
   }
 }
