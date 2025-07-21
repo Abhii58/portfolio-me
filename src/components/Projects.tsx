@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Zepto Inventory Analysis | SQL + Tableau",
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
-      image: "./images/zepto.png",
+      image: "/src/components/images/zepto.png",
       tags: ["Python", "SQL", "jupyter", "Tableau"],
       demoLink: "#",
       repoLink: "#",
@@ -86,7 +86,7 @@ const Projects = () => {
           </RevealAnimation>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
             <RevealAnimation 
               key={index} 

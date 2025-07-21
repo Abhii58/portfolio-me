@@ -61,7 +61,7 @@ const Navigation = () => {
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-1">
+          <div className="hidden md:flex items-center space-x-1 bg-red">
             <a 
               href="#home"
               className={`nav-item ${activeSection === 'home' ? 'active' : ''}`}

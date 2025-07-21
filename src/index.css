@@ -115,4 +115,333 @@
   .progress-bar-fill {
     @apply h-full rounded-full bg-primary transition-all duration-1000;
   }
+  
+  .skills-card {
+    position: relative;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    transition: all 0.5s cubic-bezier(0.2, 1, 0.3, 1);
+  }
+  
+  .skills-card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -1;
+    background: linear-gradient(45deg, #ffffff20, #ffffff05, #ffffff20);
+    border-radius: inherit;
+    animation: borderGlow 3s linear infinite;
+  }
 }
+
+@keyframes borderGlow {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+@keyframes ripple {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-3px) rotate(1deg);
+  }
+  75% {
+    transform: translateY(3px) rotate(-1deg);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: brightness(1) blur(3px);
+  }
+  50% {
+    filter: brightness(1.3) blur(6px);
+  }
+}
+
+@keyframes float-particle {
+  0%, 100% {
+    transform: translateY(0) translateX(0);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(-15px) translateX(5px);
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    transform: translateY(-30px) translateX(10px);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate-circle {
+  0% {
+    transform: rotate(-90deg) translateX(0) translateY(0);
+  }
+  100% {
+    transform: rotate(270deg) translateX(0) translateY(0);
+  }
+}
+
+@keyframes scanline {
+  0% {
+    top: 0%;
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    top: 100%;
+    opacity: 0.1;
+  }
+}
+
+@keyframes pulse-bar {
+  from {
+    transform: scaleY(1);
+    filter: brightness(1);
+  }
+  to {
+    transform: scaleY(1.2);
+    filter: brightness(1.3);
+  }
+}
+
+@keyframes text-shadow-pulse {
+  0%, 100% {
+    text-shadow: 0 0 5px rgba(30, 215, 96, 0.5);
+  }
+  50% {
+    text-shadow: 0 0 15px rgba(30, 215, 96, 0.9);
+  }
+}
+
+@keyframes border-shine {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+@keyframes orbit {
+  from {
+    transform: rotate(0deg) translateX(180px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(180px) rotate(-360deg);
+  }
+}
+
+@keyframes orbit-reverse {
+  from {
+    transform: rotate(360deg) translateX(180px) rotate(-360deg);
+  }
+  to {
+    transform: rotate(0deg) translateX(180px) rotate(0deg);
+  }
+}
+
+@keyframes float-orbit {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.text-shadow-lg {
+  text-shadow: 0 0 10px rgba(30, 215, 96, 0.9);
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 5s ease-in-out infinite;
+  }
+  
+  .animate-pulse-slow {
+    animation: pulse-glow 4s ease-in-out infinite;
+  }
+  
+  .animate-text-shadow {
+    animation: text-shadow-pulse 2s ease-in-out infinite;
+  }
+  
+  .animate-orbit {
+    animation: orbit 20s linear infinite;
+  }
+  
+  .animate-orbit-reverse {
+    animation: orbit-reverse 20s linear infinite;
+  }
+  
+  .animate-float-orbit {
+    animation: float-orbit 3s ease-in-out infinite;
+  }
+}
+
+/* ------------------- LIGHT GREEN THEMED PROJECT CARD ANIMATIONS ------------------- */
+
+/* Glassmorphism with green tint */
+.glass-green {
+  background: rgba(246, 255, 250, 0.85);
+  backdrop-filter: blur(18px);
+  box-shadow: 0 4px 24px 0 rgba(182,245,209,0.06);
+  border-radius: 1.25rem;
+  border: 1.5px solid rgba(182,245,209,0.30);
+  position: relative;
+  /* fallback for browsers that don't support layered rules */
+}
+
+/* Card border with animated light green gradient */
+.card-animated-green-border {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  border-radius: 1.25rem;
+  padding: 2px;
+  background: conic-gradient(from 0deg, #b6f5d1, #d7fbab, #f1ffef, #b6f5d1 360deg);
+  opacity: 0.70;
+  filter: blur(1.2px) brightness(1.05);
+  animation: card-glow-orbit 4s linear infinite;
+}
+
+/* Glow effect on hover */
+.project-green-card {
+  transition:
+    box-shadow 0.35s cubic-bezier(.4,.43,.13,.99),
+    border-color 0.4s cubic-bezier(.47,1.64,.41,.8);
+}
+.project-green-card:hover,
+.project-green-card:focus-within {
+  box-shadow:
+    0 0 0 4px #c1f7d6a0,
+    0 2px 32px 0 #a3ffc954;
+  border-color: #beffb9;
+}
+
+@keyframes card-glow-orbit {
+  0% {
+    filter: brightness(1) blur(1.2px);
+    box-shadow: 0 0 0 0 #d6ffe8b9;
+  }
+  50% {
+    filter: brightness(1.13) blur(2px);
+    box-shadow: 0 0 4px 6px #b6f5d166;
+  }
+  100% {
+    filter: brightness(1) blur(1.2px);
+    box-shadow: 0 0 0 0 #d6ffe8b9;
+  }
+}
+
+/* Card title shimmering text */
+.project-card-shimmer {
+  background: linear-gradient(
+    92deg, #85ffc5 12%, #b6f5d1 54%, #e9ffe9 92%
+  );
+  background-size: 200% auto;
+  color: #0b5138;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-text-green 2.2s linear infinite;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+@keyframes shimmer-text-green {
+  0% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+/* Ripple effect */
+.project-card-ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, #b6f5d1 15%, #e0ffe3 50%, transparent 90%);
+  opacity: 0.6;
+  pointer-events: none;
+  transform: scale(0);
+  animation: ripple-green 0.7s linear;
+  z-index: 99;
+}
+
+@keyframes ripple-green {
+  0% {
+    opacity: 0.55;
+    transform: scale(0.3);
+  }
+  65% {
+    opacity: 0.12;
+    transform: scale(1.13);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.79);
+  }
+}
+
+/* Responsive fixes for glass Green and orbit border on card */
+@media (max-width: 640px) {
+  .glass-green {
+    border-radius: 0.9rem;
+  }
+  .card-animated-green-border {
+    border-radius: 0.9rem;
+  }
+}
+
+/* 3D Flip Animation for Project Cards */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* End Light Green Themed Project Card Animations */
+
+/* ---------- END OF FILE ---------- */
