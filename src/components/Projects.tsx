@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Ferns and Petals Sales Analysis",
       description: "Data cleaning and analysis of floral retailer sales data with Excel dashboards.",
-      image: "",
+      image: "/src/components/images/zepto.png",
       tags: ["Python", "Pandas", "NumPy", "Excel", "Data Cleaning"],
       demoLink: "#",
       repoLink: "#",
