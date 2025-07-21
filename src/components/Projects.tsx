@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: "Zepto Inventory Analysis | SQL + Tableau",
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
-      image: "/src/components/images/zepto.png",
+      image: "",
       tags: ["Python", "SQL", "jupyter", "Tableau"],
       demoLink: "#",
       repoLink: "#",
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Ferns and Petals Sales Analysis",
       description: "Data cleaning and analysis of floral retailer sales data with Excel dashboards.",
-      image: "/src/components/images/Dashboard.png",
+      image: "",
       tags: ["Python", "Pandas", "NumPy", "Excel", "Data Cleaning"],
       demoLink: "#",
       repoLink: "#",
