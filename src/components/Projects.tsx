@@ -22,8 +22,8 @@ const Projects = () => {
       description: "Data cleaning and analysis of floral retailer sales data with Excel dashboards.",
       image: "/src/components/assets/dashboard.png",
       tags: ["Python", "Pandas", "NumPy", "Excel", "Data Cleaning"],
-      demoLink: "#",
-      repoLink: "#",
+      demoLink: "https://github.com/Abhii58/Ferns-and-Petals-Sales-Analysis",
+      repoLink: "https://github.com/Abhii58/Ferns-and-Petals-Sales-Analysis",
       details: [
         "Processed and cleaned large datasets using Python (Pandas, NumPy).",
         "Built an Excel dashboard with Pivot Tables and Charts for executive reporting.",
