@@ -8,8 +8,8 @@ const Projects = () => {
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
       image: "/src/components/assets/zepto.png",
       tags: ["Python", "SQL", "jupyter", "Tableau"],
-      demoLink: "#",
-      repoLink: "#",
+      demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
+      repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       details: [
         "Designed and analyzed a fictional quick-commerce inventory system using MySQL, performing data cleaning, product segmentation, and business-driven queries.",
         "Built an interactive Tableau dashboard to visualize inventory weight by category, revenue potential, price-per-gram efficiency, and restocking insights. ",
