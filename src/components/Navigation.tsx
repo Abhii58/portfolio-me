@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import resumePdf from './assets/Resume_Abhishek_Bijalwan.pdf';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -126,7 +127,7 @@ const Navigation = () => {
           
           <div className="hidden md:block">
             <a 
-              href="/resume.pdf" 
+              href={resumePdf} 
               target="_blank" 
               rel="noopener noreferrer"
               className="resume-button"
@@ -218,7 +219,7 @@ const Navigation = () => {
           </a>
           <div className="pt-6">
             <a 
-              href="/resume.pdf" 
+              href={resumePdf} 
               target="_blank" 
               rel="noopener noreferrer"
               className="resume-button"

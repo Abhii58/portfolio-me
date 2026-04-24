@@ -1,5 +1,6 @@
 import { ArrowDownCircle } from 'lucide-react';
 import RevealAnimation from './RevealAnimation';
+import resumePdf from './assets/Resume_Abhishek_Bijalwan.pdf';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -44,7 +45,7 @@ const Hero = () => {
             <RevealAnimation delay={300}>
               <div className="flex flex-wrap gap-4">
                 <a 
-                  href="/src/components/assets/Resume_Abhishek_Bijalwan.pdf" 
+                  href={resumePdf} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground rounded-full px-8 py-3 text-base font-medium transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-95"
