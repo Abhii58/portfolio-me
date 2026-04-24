@@ -44,7 +44,7 @@ const Hero = () => {
             <RevealAnimation delay={300}>
               <div className="flex flex-wrap gap-4">
                 <a 
-                  href="/resume.pdf" 
+                  href="/src/components/assets/Resume_Abhishek_Bijalwan.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="bg-primary text-primary-foreground rounded-full px-8 py-3 text-base font-medium transition-all hover:shadow-lg hover:shadow-primary/20 active:scale-95"
@@ -94,3 +94,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
