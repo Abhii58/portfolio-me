@@ -1,7 +1,7 @@
 import ProjectCard from './ProjectCard';
 import RevealAnimation from './RevealAnimation';
-import dashboardImage from './assets/dashboard.png';
-import vendorDashboardImage from './assets/vendor_dashbord.png';
+import dashboardImage from './assets/dashboard.jpg';
+import vendorDashboardImage from './assets/vendor_dashbord.jpg';
 import zeptoImage from './assets/zepto.png';
 
 const Projects = () => {
