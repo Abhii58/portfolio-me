@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "Zepto Inventory Analysis | SQL + Tableau",
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
-      image: "/assets/zepto.png",
+      image: "/assets/zepto_dashboard.png",
       tags: [My-SQL "Tableau"],
       demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
@@ -34,7 +34,7 @@ const Projects = () => {
     {
       title: "Ferns and Petals Sales Analysis",
       description: "Data cleaning and analysis of floral retailer sales data with Excel dashboards.",
-      image: "/src/components/assets/dashboard.png",
+      image: "/assets/dashboard.png",
       tags: ["Python", "Pandas", "NumPy", "Excel", "Data Cleaning"],
       demoLink: "https://github.com/Abhii58/Ferns-and-Petals-Sales-Analysis",
       repoLink: "https://github.com/Abhii58/Ferns-and-Petals-Sales-Analysis",
@@ -71,19 +71,6 @@ const Projects = () => {
         "Implemented automated data refresh schedules for real-time reporting."
       ]
     },
-    {
-      title: "Customer Segmentation Analysis",
-      description: "Clustering analysis to identify distinct customer segments for targeted marketing.",
-      image: "",
-      tags: ["Python", "K-Means", "Scikit-learn", "Power BI"],
-      repoLink: "#",
-      details: [
-        "Performed RFM (Recency, Frequency, Monetary) analysis on customer transaction data.",
-        "Used K-means clustering to identify 5 distinct customer segments.",
-        "Created Power BI visualizations to communicate segment characteristics.",
-        "Provided actionable marketing recommendations based on segment insights."
-      ]
-    }
   ];
 
   return (
