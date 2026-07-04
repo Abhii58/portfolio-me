@@ -6,10 +6,10 @@ const Projects = () => {
     {
       title: "Vendor Performance Analysis ",
       description: "Analyzed sales data using an end-to-end workflow—utilizing Python for ETL and EDA, MySQL for data storage, and Tableau to build interactive business dashboards.",
-      image: "/src/components/assets/zepto.png",
+      image: "/assets/vendor_dashboard.png",
       tags: ["Python", "MySQL", "jupyter", "Tableau"],
       demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
-      repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
+      repoLink: "https://github.com/Abhii58/Vendor-Performance-Analysis",
       details: [
         "Developed a robust ETL workflow using Python to extract, clean, and process multi-source vendor sales data for downstream analysis.",
         "Wrote complex MySQL queries to handle data aggregation, segmentation, and performance metric calculations. ",
@@ -20,8 +20,8 @@ const Projects = () => {
     {
       title: "Zepto Inventory Analysis | SQL + Tableau",
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
-      image: "/src/components/assets/zepto.png",
-      tags: ["Python", "SQL", "jupyter", "Tableau"],
+      image: "/assets/zepto.png",
+      tags: [My-SQL "Tableau"],
       demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       details: [
