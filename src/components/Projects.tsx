@@ -5,15 +5,15 @@ const Projects = () => {
   const projects = [
     {
       title: "Vendor Performance Analysis ",
-      description: "This project analyzes vendor sales and performance data to help solve business problems using a complete data analytics workflow. The project uses Python for data ingestion, cleaning, exploratory data analysis, and performance analysis; MySQL for storing structured datasets; and Tableau for building an interactive business dashboard.",
+      description: "Analyzed sales data using an end-to-end workflow—utilizing Python for ETL and EDA, MySQL for data storage, and Tableau to build interactive business dashboards.",
       image: "/src/components/assets/zepto.png",
-      tags: ["Python", "SQL", "jupyter", "Tableau"],
+      tags: ["Python", "MySQL", "jupyter", "Tableau"],
       demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       details: [
-        "Designed and analyzed a fictional quick-commerce inventory system using MySQL, performing data cleaning, product segmentation, and business-driven queries.",
-        "Built an interactive Tableau dashboard to visualize inventory weight by category, revenue potential, price-per-gram efficiency, and restocking insights. ",
-        "Implemented advanced SQL queries for product segmentation, identifying high-value products and discount patterns.",
+        "Developed a robust ETL workflow using Python to extract, clean, and process multi-source vendor sales data for downstream analysis.",
+        "Wrote complex MySQL queries to handle data aggregation, segmentation, and performance metric calculations. ",
+        "Built dynamic Tableau visualizations integrating filters and drill-down capabilities to highlight revenue potential and vendor efficiency.",
       ]
     },
 
