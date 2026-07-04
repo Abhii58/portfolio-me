@@ -57,7 +57,7 @@ const About = () => {
                 <Award className="h-8 w-8 text-primary mb-4" />
                 <h3 className="text-lg font-bold mb-2">Certifications</h3>
                 <p className="text-sm text-muted-foreground">
-                  Certified in Python for Data Analysis, Tableau, and Advanced SQL.
+                 Accenture Data Analytics and Visualization Job Simulation
                 </p>
               </div>
             </RevealAnimation>
@@ -67,8 +67,8 @@ const About = () => {
                 <Briefcase className="h-8 w-8 text-primary mb-4" />
                 <h3 className="text-lg font-bold mb-2">Experience</h3>
                 <p className="text-sm text-muted-foreground">
-                Developed multiple web applications using React.js, Express.js, and MongoDB. Worked on data analytics, web scraping, and interactive dashboards using SQL, Power BI, and Tableau.
-                 </p>
+                  Focused on data analytics and data-driven storytelling. Proficient in extracting and processing data via Python and SQL, performing advanced data modeling, and creating dynamic, interactive dashboards in Tableau.
+                </p>
               </div>
             </RevealAnimation>
             
