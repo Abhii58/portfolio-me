@@ -52,6 +52,7 @@ const About = () => {
               </div>
             </RevealAnimation>
             
+          {/* certification */}
             <RevealAnimation delay={200}>
               <div className="glass-panel p-6 h-full">
                 <Award className="h-8 w-8 text-primary mb-4" />
@@ -62,6 +63,7 @@ const About = () => {
               </div>
             </RevealAnimation>
             
+            {/* Experiience */}
             <RevealAnimation delay={300}>
               <div className="glass-panel p-6 h-full">
                 <Briefcase className="h-8 w-8 text-primary mb-4" />
