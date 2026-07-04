@@ -4,6 +4,20 @@ import RevealAnimation from './RevealAnimation';
 const Projects = () => {
   const projects = [
     {
+      title: "Vendor Performance Analysis ",
+      description: "This project analyzes vendor sales and performance data to help solve business problems using a complete data analytics workflow. The project uses Python for data ingestion, cleaning, exploratory data analysis, and performance analysis; MySQL for storing structured datasets; and Tableau for building an interactive business dashboard.",
+      image: "/src/components/assets/zepto.png",
+      tags: ["Python", "SQL", "jupyter", "Tableau"],
+      demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
+      repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
+      details: [
+        "Designed and analyzed a fictional quick-commerce inventory system using MySQL, performing data cleaning, product segmentation, and business-driven queries.",
+        "Built an interactive Tableau dashboard to visualize inventory weight by category, revenue potential, price-per-gram efficiency, and restocking insights. ",
+        "Implemented advanced SQL queries for product segmentation, identifying high-value products and discount patterns.",
+      ]
+    },
+
+    {
       title: "Zepto Inventory Analysis | SQL + Tableau",
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
       image: "/src/components/assets/zepto.png",
