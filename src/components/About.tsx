@@ -69,7 +69,7 @@ const About = () => {
                 <Briefcase className="h-8 w-8 text-primary mb-4" />
                 <h3 className="text-lg font-bold mb-2">Experience</h3>
                 <p className="text-sm text-muted-foreground">
-                  5+ years working with leading organizations to implement data-driven strategies.
+                 Focused on data analytics and data-driven storytelling. Proficient in extracting and processing data via Python and SQL, performing advanced data modeling, and creating dynamic, interactive dashboards in Tableau
                 </p>
               </div>
             </RevealAnimation>
