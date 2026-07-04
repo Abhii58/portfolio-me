@@ -48,8 +48,9 @@ const About = () => {
                 <GraduationCap className="h-8 w-8 text-primary mb-4" />
                 <h3 className="text-lg font-bold mb-2">Education</h3>
                 <p className="text-sm text-muted-foreground">
-                  Master's degree in Data Science with specialization in statistical modeling and machine learning.
+                  Master's of Computer Applications 
                 </p>
+                <p className="text-sm text-muted-foreground">Bachelor's of Computer Applications</p>
               </div>
             </RevealAnimation>
             
@@ -58,7 +59,7 @@ const About = () => {
                 <Award className="h-8 w-8 text-primary mb-4" />
                 <h3 className="text-lg font-bold mb-2">Certifications</h3>
                 <p className="text-sm text-muted-foreground">
-                  Certified in Python for Data Analysis, Tableau, and Advanced SQL.
+                  AccentureDataAnalytics and Visualization Job Simulation (Forage)
                 </p>
               </div>
             </RevealAnimation>
