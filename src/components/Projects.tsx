@@ -1,12 +1,15 @@
 import ProjectCard from './ProjectCard';
 import RevealAnimation from './RevealAnimation';
+import dashboardImage from './assets/dashboard.png';
+import vendorDashboardImage from './assets/vendor_dashbord.png';
+import zeptoImage from './assets/zepto.png';
 
 const Projects = () => {
   const projects = [
     {
       title: "Vendor Performance Analysis ",
       description: "Analyzed sales data using an end-to-end workflow—utilizing Python for ETL and EDA, MySQL for data storage, and Tableau to build interactive business dashboards.",
-      image: "/assets/vendor_dashboard.png",
+      image: vendorDashboardImage,
       tags: ["Python", "MySQL", "jupyter", "Tableau"],
       demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       repoLink: "https://github.com/Abhii58/Vendor-Performance-Analysis",
@@ -20,8 +23,8 @@ const Projects = () => {
     {
       title: "Zepto Inventory Analysis | SQL + Tableau",
       description: "A full-stack data exploration and visualization project based on a fictional Zepto-style inventory dataset.",
-      image: "/assets/zepto_dashboard.png",
-      tags: [My-SQL "Tableau"],
+      image: zeptoImage,
+      tags: ["MySQL", "Tableau"],
       demoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       repoLink: "https://github.com/Abhii58/Zepto-Inventory-Analysis-Visualization",
       details: [
@@ -34,7 +37,7 @@ const Projects = () => {
     {
       title: "Ferns and Petals Sales Analysis",
       description: "Data cleaning and analysis of floral retailer sales data with Excel dashboards.",
-      image: "/assets/dashboard.png",
+      image: dashboardImage,
       tags: ["Python", "Pandas", "NumPy", "Excel", "Data Cleaning"],
       demoLink: "https://github.com/Abhii58/Ferns-and-Petals-Sales-Analysis",
       repoLink: "https://github.com/Abhii58/Ferns-and-Petals-Sales-Analysis",
